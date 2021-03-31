@@ -1,0 +1,36 @@
+{
+  "cluster_12": {
+    "loops": [
+      {
+          "name": "loop_1",
+          "nodes": ["4005f8", "400663", "400667"],
+          "links": [
+            {"source": "4005f8", "target": "400663"},
+            {"source": "400663", "target": "400667"},
+            {"source": "400667", "target": "4005f8"}
+          ]
+      },
+      {
+        "name": "loop_2",
+        "nodes": ["4005f8", "400663", "400667"],
+        "links": [
+          {"source": "4005f8", "target": "400663"},
+          {"source": "400663", "target": "400667"},
+          {"source": "400667", "target": "4005f8"}
+        ]
+      }
+    ]
+  },
+
+  "cluster_13": {
+    "loops": [
+      {
+        "name": "loop_x",
+        "nodes": [],
+        "links": [
+
+        ]
+      }
+    ]
+  }
+}
